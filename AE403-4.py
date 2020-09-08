@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep  8 09:04:09 2020
-
-"""
 
 import tkinter as tk
 import tkinter.messagebox
@@ -11,7 +6,7 @@ def clickme():
     var.set('按鈕被點選了') #設定var的值為按鈕被點選了
     
 def cancelme():
-    var.set('') #設定var的值為按鈕被點選了
+    var.set('') #設定var的值為空
     
 window = tk.Tk()
 window.title('my first GUI')
