@@ -2,7 +2,7 @@
 """
 Created on Tue Sep 15 10:18:14 2020
 
-@author: K0718
+
 """
 
 #建立視窗
