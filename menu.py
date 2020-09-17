@@ -15,7 +15,7 @@ menuBar=tk.Menu(window)
 
 
 #建立第一個選單與子選單
-fileMenu = tk.Menu(menuBar,tearoff=False)
+fileMenu = tk.Menu(menuBar,tearoff=False)#tearoff=True或False是定義menu能不能被分開
 fileMenu.add_command(label="開始新遊戲")
 fileMenu.add_command(label="作幣指令")
 fileMenu.add_separator()
