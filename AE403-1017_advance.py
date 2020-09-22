@@ -35,9 +35,6 @@ def download():
     stream.download("C:\\Users\\K0718\\Desktop\\py",yt.title)#存檔路徑、存檔名稱
 
 
-    
-
-
 label = tk.Label(window,text="Youtube下載器")
 label.pack()
 
@@ -49,13 +46,3 @@ button.pack()
 
 window.mainloop()
 
-
-
-
-"""import tkinter as tk
-window=tk.Tk()
-window.title("GUI")
-window.geometry("500x500")
-window.iconbitmap("C:\\Users\\K0718\\Desktop\\py\\test.ico")
-
-window.mainloop()"""
