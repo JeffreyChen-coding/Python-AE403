@@ -2,18 +2,9 @@
 """
 Created on Tue Sep 22 08:14:18 2020
 
-@author: K0718
 """
 from pytube import YouTube
 import tkinter as tk
-
-
-
-
-
-
-
-
 window = tk.Tk()
 ys = tk.StringVar()
 window.iconbitmap("C:\\Users\\K0718\\Desktop\\py\\test.ico")#視窗左上角圖示
