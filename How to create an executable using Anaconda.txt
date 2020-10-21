@@ -1,0 +1,13 @@
+How to create an executable using Anaconda 3 (specifically Anaconda Prompt) for Windows.
+
+1 - Make sure pyinstaller is installed in your anaconda
+
+pip install pyinstaller
+
+2 - Move to the directory of your python script
+
+cd C:\Users....\program.py
+
+3 - Just type the following:
+
+pyinstaller --onefile program.py
