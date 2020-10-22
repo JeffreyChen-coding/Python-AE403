@@ -2,12 +2,6 @@
 """
 Created on Thu Oct 22 09:41:57 2020
 
-@author: K0718
-"""
-
-
-
-
 
 x = 1 
 
