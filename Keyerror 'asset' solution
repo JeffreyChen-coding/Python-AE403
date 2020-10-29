@@ -1,0 +1,1 @@
+change 143 row "base_js = get_ytplayer_config(html)["assets"]["js"]" to "base_js = re.search("\/s\/player.*\/base\.js", html).group()" in extract.py
