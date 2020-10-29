@@ -2,7 +2,7 @@
 """
 Created on Thu Oct 29 09:43:01 2020
 
-@author: K0718
+
 """
 from pytube import YouTube
 import tkinter as tk
