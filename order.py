@@ -2,7 +2,6 @@
 """
 Created on Mon Nov 23 13:31:14 2020
 
-
 """
 #利用tkinter Label、button、entry、showmessage製作簡易點餐系統
 
