@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov 23 14:50:14 2020
-
 """
 #利用tkinter Label、button、entry、showmessage製作簡易點餐系統
 
@@ -107,24 +106,19 @@ def accept():
     
 price=tk.StringVar()
 tk.Label(window,text="金額：").grid(row=1,column=1)
-tk.Entry(window,width=10,textvariable=price,state="readonly").grid(row=1,column=2)
-
-tk.Label(window,text="",width=10).grid(row=2,column=1)#空一列
-
-tk.Button(window,text="漢堡\n$20",width=10,height=5,command=hambuger).grid(row=3,column=1)
-tk.Button(window,text="薯條\n$10",width=10,height=5,command=fresh).grid(row=3,column=2)
-tk.Button(window,text="雞塊\n$25",width=10,height=5,command=chicken).grid(row=3,column=3)
-tk.Button(window,text="可樂\n$5",width=10,height=5,command=cola).grid(row=3,column=4)
-
-tk.Label(window,text="",width=10).grid(row=4,column=1)
-
-tk.Button(window,text="結帳",width=10,height=1,command=accept).grid(row=5,column=1)
-tk.Button(window,text="重新點餐",width=10,height=1,command=reset).grid(row=5,column=2)
+tk.Entry(window,width=10,textvariable=price,state="readonly").grid(row=1,column=2,padx=2,pady=5)
 
 
 
+tk.Button(window,text="漢堡\n$20",width=10,height=5,command=hambuger).grid(row=3,column=1,padx=2,pady=5)
+tk.Button(window,text="薯條\n$10",width=10,height=5,command=fresh).grid(row=3,column=2,padx=2,pady=5)
+tk.Button(window,text="雞塊\n$25",width=10,height=5,command=chicken).grid(row=3,column=3,padx=2,pady=5)
+tk.Button(window,text="可樂\n$5",width=10,height=5,command=cola).grid(row=3,column=4,padx=2,pady=5)
 
-  
+
+tk.Button(window,text="結帳",width=10,height=1,command=accept).grid(row=5,column=1,padx=2,pady=5)
+tk.Button(window,text="重新點餐",width=10,height=1,command=reset).grid(row=5,column=2,padx=2,pady=5)
+
 
 
 
