@@ -17,7 +17,7 @@ friesnum=0 #薯條數量
 chickennum=0 #雞塊數量
 colanum=0 #可樂數量
 meal='' #餐點清單
-
+mealnum=0#餐點數量
 #step2 定義函式
 def cash(product,val):
     global total
@@ -25,6 +25,7 @@ def cash(product,val):
     global friesnum
     global chickennum
     global colanum
+    global mealnum
     total+=val
     if product == 'hambuger':
         hambugernum+=1
@@ -34,6 +35,7 @@ def cash(product,val):
         chickennum+=1
     if product == 'cola':
         colanum+=1
+    mealnum+=1    
     price.set(total)
     
 
@@ -45,12 +47,14 @@ def reset():
    global chickennum
    global colanum
    global meal
+   global mealnum
    total=0
    hambugernum=0
    friesnum=0
    chickennum=0
    colanum=0
    meal=''
+   mealnum=0
    price.set(total)
 
 #確認點餐並顯示點餐清單
@@ -61,10 +65,11 @@ def accept():
     global chickennum
     global colanum
     global meal
+    global mealnum
     if hambugernum > 0:
       meal= "漢堡"+" * "+str(hambugernum)+"\n"
     if friesnum>0:
-      meal+= "薯條"+" * "+str(friesnum)+"\n" 
+      meal+= "薯條"+" * "+str(friesnum)+"\n"
       
     if chickennum>0:
       meal+= "雞塊"+" * "+str(chickennum)+"\n"
@@ -75,7 +80,7 @@ def accept():
     if meal=='':
         tkinter.messagebox.showinfo(title='餐點',message="沒有任何餐點") 
     else:
-        meal+="\n"+"共"+str(total)+"元"
+        meal+=str(mealnum)+"份餐點"+"，"+"共"+str(total)+"元"
         tkinter.messagebox.showinfo(title='餐點',message=meal) 
     total=0
     hambugernum=0
@@ -83,6 +88,7 @@ def accept():
     chickennum=0
     colanum=0
     meal=''
+    mealnum=0
     price.set(total)
     
     
