@@ -11,8 +11,8 @@ window.title("點餐系統")
 window.geometry("500x500")
 
 #step1 定義變數
-total=0 #折扣後金額
-ototal=0#原始金額
+total=0 #原始金額
+ototal=0#原始金額，計算折扣後金額用
 hambugernum=0 #漢堡數量
 friesnum=0 #薯條數量
 chickennum=0 #雞塊數量
