@@ -2,7 +2,6 @@
 """
 Created on Wed Nov 25 13:23:04 2020
 
-@author: K0718
 """
 
 import turtle
