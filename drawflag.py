@@ -15,6 +15,8 @@ turf=turtle.Turtle()
 turi=turtle.Turtle()
 def drawtaiwan():    
    
+    tur.clear()
+    tur.reset()
     turd.clear()
     turd.reset()
     turf.clear()
@@ -98,6 +100,8 @@ def drawtaiwan():
 def drawgermany():
     tur.clear()
     tur.reset()
+    turd.clear()
+    turd.reset()
     turf.clear()
     turf.reset()
     turi.clear()
@@ -162,6 +166,8 @@ def drawfrance():
     tur.reset()
     turd.clear()
     turd.reset()
+    turf.clear()
+    turf.reset()
     turi.clear()
     turi.reset()
     turtle.setup(800,800)
@@ -225,6 +231,8 @@ def drawitaly():
     turd.reset()
     turf.clear()
     turf.reset()
+    turi.clear()
+    turi.reset()
     turtle.setup(800,800)
     turi.speed(10)
     turi.hideturtle()
@@ -292,6 +300,3 @@ turtle.done()
 turtle.exitonclick() 
 
 window.mainloop()
-
-
-
