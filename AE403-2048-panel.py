@@ -259,6 +259,28 @@ class Grid:
     
 #201128
 
+"""整體背景顏色"""
+    BACKGROUND_COLOR = '#92877d'
+    
+    """空格子顏色"""
+    EMPTY_CELL_COLOR = '#9e948a'
+    
+    """數字背景顏色"""
+    CELL_BACKGROUND_COLOR_DICT = {
+        '2': '#eee4da',
+        '4': '#ede0c8',
+        '8': '#f2b179',
+        '16': '#f59563',
+        '32': '#f67c5f',
+        '64': '#f65e3b',
+        '128': '#edcf72',
+        '256': '#edcc61',
+        '512': '#edc850',
+        '1024': '#edc53f',
+        '2048': '#edc22e',
+        'default': '3c3a32'
+    }
+
 """控制整個遊戲流程"""
 class Game:
     def __init__(self, panel):
