@@ -427,44 +427,28 @@ class Game:
     2.往上合併
     3.若有成功進行壓縮或合併，則grid.moved旗標設為True
     4.在次往上壓縮"""
-    def up(self):
-        self.grid.up_compress()
-        self.grid.up_merge()
-        self.grid.moved = self.grid.compressed or self.grid.merged
-        self.grid.up_compress()
+    #20201212
 
     """往左移動的方法
     1.往左壓縮
     2.往左合併
     3.若有成功進行壓縮或合併，則grid.moved旗標設為True
     4.在次往左壓縮"""
-    def left(self):
-        self.grid.left_compress()
-        self.grid.left_merge()
-        self.grid.moved = self.grid.compressed or self.grid.merged
-        self.grid.left_compress()
+    #20201212
 
     """往下移動的方法
     1.往下壓縮
     2.往下合併
     3.若有成功進行壓縮或合併，則grid.moved旗標設為True
     4.在次往下壓縮"""
-    def down(self):
-        self.grid.down_compress()
-        self.grid.down_merge()
-        self.grid.moved = self.grid.compressed or self.grid.merged
-        self.grid.down_compress()
+    #20201212
 
     """往右移動的方法
     1.往右壓縮
     2.往右合併
     3.若有成功進行壓縮或合併，則grid.moved旗標設為True
     4.在次往右壓縮"""
-    def right(self):
-        self.grid.right_compress()
-        self.grid.right_merge()
-        self.grid.moved = self.grid.compressed or self.grid.merged
-        self.grid.right_compress()
+    #20201212
 
 
 size = 4
